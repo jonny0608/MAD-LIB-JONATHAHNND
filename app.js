@@ -21,6 +21,10 @@
 */
 
 // let ________ = prompt("Ask the user for ________");
+let Favoriteparent = prompt("favorite parent?");
+let Place = prompt ("most recent hangout spot?");
+let Freetime = prompt ("what you do in your free time");
+
 // let ________ = prompt("Ask the user for ________");
 // (Add as many as your story needs)
 
@@ -31,7 +35,8 @@
 */
 
 // let story = `Write your story here using ${_____} and ${_____} etc.`;
-
+let story = `Today my ${Favoriteparent} went to ${Place} to Do ${Freetime} while they were doing this they went to go cook some food
+                            they made some `
 /* 3) DISPLAY THE STORY ON THE PAGE
    - Select the element with id "madlib-output" using document.getElementById(...)
    - Set its .innerHTML to your story variable from Step 2.
