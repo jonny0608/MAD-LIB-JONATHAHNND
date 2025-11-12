@@ -1,4 +1,3 @@
-/* Keep styles simple and readable for beginners */
 :root {
   --card-radius: 1rem;
 }
@@ -11,4 +10,17 @@
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
+}
+
+/* added some extra styling */
+body{
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+footer{
+  margin-top: 20px;
 }
